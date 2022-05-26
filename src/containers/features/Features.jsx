@@ -4,28 +4,28 @@ import './features.css';
 
 const featuresData = [
   {
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    title: 'Data Integration',
+    text: 'Solve the Extract & Load stage of ELT by bringing data from disparate sources together to provide a unified view.',
   },
   {
-    title: 'Become the tended active',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    title: 'Data Warehousing',
+    text: 'Centralize all of your marketing data into a Single Source of Truth Data Warehouse.',
   },
   {
-    title: 'Message or am nothing',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+    title: 'Dashboarding',
+    text: 'Connect any and all marketing data sources to your dashboard. Let your marketers focus on the analysis.',
   },
   {
-    title: 'Really boy law county',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+    title: 'Automation',
+    text: 'Automated ETL platform, marketing teams can build reports with data that would be hard to gather manually.',
   },
 ];
 
 const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
-      <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
-      <p>Request Early Access to Get Started</p>
+      <h1 className="gradient__text">Business Intelligence <br /> & Data Consulting</h1>
+      <p>Tell Us About Your Project!</p>
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (
